@@ -6,3 +6,5 @@
 
 @import 'elements/_link.css';
 @import 'elements/_page.css';
+@import 'components/_button.css';
+@import 'components/_input.css';
