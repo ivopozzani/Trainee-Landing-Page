@@ -1,2 +1,7 @@
 @import 'generic/_box-sizing.css';
 @import 'generic/_resets.css';
+@import 'generic/_font-smothing.css';
+@import 'settings/_colors.css';
+@import 'settings/_defaults.css';
+@import 'elements/_link.css';
+@import 'elements/_page.css';
