@@ -1,0 +1,28 @@
+:root {
+  /*------- Colors -------*/
+  --color-yellow-light: #ffe21d;
+  --color-yellow-dark: #ffd21d;
+  --color-blue-light: #24afff;
+  --color-blue-dark: #248bff;
+  --color-red: #f26c6c;
+  --color-green: #27b667;
+
+  --body-color: #e4e5ea;
+
+  --text-color-dark: #595a5c;
+  --text-color-white: #ffffff;
+
+  /*------- Font -------*/
+  --font-body: 'Montserrat', sans-serif;
+
+  /*------- FontSize -------*/
+  --font-title-size: 30px;
+  --font-paragraph-size: 16px;
+
+  /*------- FontWeight -------*/
+  --font-400: 400;
+  --font-700: 700;
+
+  /*------- BaseBorder -------*/
+  --border-50: 50px;
+}
