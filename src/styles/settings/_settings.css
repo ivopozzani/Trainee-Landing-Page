@@ -1,11 +1,15 @@
 :root {
   /*------- Colors -------*/
   --color-yellow-light: #ffe21d;
-  --color-yellow-dark: #ffd21d;
+  --color-yellow-dark: #ebbc00;
   --color-blue-light: #24afff;
   --color-blue-dark: #248bff;
   --color-red: #f26c6c;
   --color-green: #27b667;
+
+  --color-error: #f26c6c1e;
+  --color-success: #27b6671e;
+  --color-attention: #ffd21d32;
 
   --body-color: #e4e5ea;
 
@@ -17,10 +21,13 @@
 
   /*------- FontSize -------*/
   --font-title-size: 30px;
-  --font-paragraph-size: 16px;
+  --font-paragraph-size: 12px;
+  --font-placeholder-size: 10px;
 
   /*------- FontWeight -------*/
   --font-400: 400;
+  --font-500: 500;
+  --font-600: 600;
   --font-700: 700;
 
   /*------- BaseBorder -------*/
