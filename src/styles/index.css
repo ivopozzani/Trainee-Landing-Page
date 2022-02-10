@@ -8,6 +8,7 @@
 @import 'elements/_page.css';
 @import 'elements/_list.css';
 
+@import 'layout/_footer.css';
 @import 'layout/_form.css';
 @import 'layout/_container.css';
 
