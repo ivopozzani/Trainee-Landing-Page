@@ -1,6 +1,6 @@
 .input {
   min-width: 200px;
-  height: 30px;
+  height: 40px;
   margin: 10px 30px;
   background-color: var(--text-color-white);
   border-style: none;
@@ -50,4 +50,13 @@
 
 .input--attention::placeholder {
   color: var(--color-yellow-dark);
+}
+
+.input--size-big {
+  height: 90%;
+  border-radius: calc(0.5 * var(--border-50));
+}
+
+.input--size-big::placeholder {
+  padding-top: calc(0.5 * var(--padding-height));
 }
