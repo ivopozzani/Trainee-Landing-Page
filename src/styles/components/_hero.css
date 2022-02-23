@@ -1,0 +1,14 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../../../images/man_rock.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero_h2 {
+  font-size: var(--font-title-size);
+  padding-left: var(--padding-width);
+}
