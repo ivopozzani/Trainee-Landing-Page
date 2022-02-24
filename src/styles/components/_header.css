@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: var(--padding-height) var(--padding-width);
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}

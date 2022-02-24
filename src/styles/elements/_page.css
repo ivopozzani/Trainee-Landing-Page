@@ -1,8 +1,8 @@
-html {
-  scroll-behavior: smooth;
-}
-
+html,
 body {
+  scroll-behavior: smooth;
+  min-height: 100%;
+  position: relative;
   font-family: var(--font-body);
   font-size: var(--font-paragraph-size);
   color: var(--text-color-white);

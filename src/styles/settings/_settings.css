@@ -21,6 +21,7 @@
 
   /*------- FontSize -------*/
   --font-title-size: 30px;
+  --font-nav-size: 16px;
   --font-paragraph-size: 12px;
   --font-placeholder-size: 10px;
 
@@ -30,6 +31,9 @@
   --font-600: 600;
   --font-700: 700;
 
-  /*------- BaseBorder -------*/
+  /*------- BaseLayoult -------*/
   --border-50: 50px;
+
+  --padding-height: 20px;
+  --padding-width: 30px;
 }

@@ -12,6 +12,36 @@
     <title>Web App</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <header class="header">
+      <h1>Codeminer42</h1>
+      <nav class="nav">
+        <ul class="nav_list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Benefits</a></li>
+        </ul>
+      </nav>
+      <a href="#form"><button class="button button--yellow">Apply Now</button></a>
+    </header>
+    <main>
+      <section id="home" class="container--size-big hero">
+        <h2 class="hero_h2">Trainee Program 2022</h2>
+      </section>
+      <section id="form" class="container--size-big">
+        <form class="form" action="javascript:void(0);">
+          <h2 class="form_item-a">Start here your application</h2>
+          <p class="form_item-b">We are pleased to now that you have interest on working with us. Fill this form and we'll reach you shortly.</p>        
+          <input class="input form_item-c" type="text" placeholder="How should we call you?"></input>
+          <input class="input form_item-d" type="text" placeholder="How did your hear about us?"></input>
+          <textarea class="input input--size-big form_item-e" type="text" placeholder="Talk about your background..."></textarea>
+          <button class="button button--blue form_item-f" type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="#home">Codeminer42</a>
+      <p>All rights reserved © 2016</p>
+      <a class="footer_icon" href="#home"><img src="../images/arrow_up.svg" alt="arrow_up"></a>
+    </footer>
   </body>
 </html>
